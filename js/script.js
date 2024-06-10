@@ -21,6 +21,8 @@ const infoderecha = document.getElementById("info-derecha");
 //La letra "o" es convertida para "ober"
 //La letra "u" es convertida para "ufat"
 
+//comentario
+
 let reemplazar = [
     ["e", "enter"],
     ["i", "imes"],
