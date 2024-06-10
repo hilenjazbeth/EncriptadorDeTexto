@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img class="logoalura" src=".\images\logo.png">
+        </div>     
+    </header>
+
+    <main>
+
+        <div class="main">
+            <div class="info-izquierda">
+                <textarea id="ingresoTexto" class="ingreso-texto" placeholder="Ingrese texto aqui"></textarea>
+                <div class="izqfooter">
+                    <img src=".\images\bi_exclamation-circle-fill.png" alt="">
+                    <span class="condiciones">Solo letras minúsculas y sin acentos</span>
+                    
+                    <div class="botones">
+                        <button id="botonEncriptar"  class="boton-encriptar" >Encriptar</button>
+                        <button id="botonDesencriptar"  class="boton-desencriptar" >Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+            <div id="info-derecha" class="info-derecha">
+                <img id="muneco" class="muneco" src=".\images\Muñeco.png" alt="">
+                <textarea id="mensajeFinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado"></textarea>
+               <p id="instrucciones"  class="instrucciones">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button id="botonCopiar" class="boton-copiar oculto">Copiar</button>
+            </div>
+
+        </div>
+        
+    </main>
+
+    <script src="./js/script.js">
+
+    </script>
+
+    <footer>
+        <p>Desarrollado por: Hilen Jazbeth</p>
+    </footer>
+
+
+    
+</body>
+</html>
